@@ -5,3 +5,6 @@ git reset HEAD~1
 
 # add changes to the last commit
 git commit --amend --no-edit
+
+# remove all untracked files including sub directories
+git clean -fd
