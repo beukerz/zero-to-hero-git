@@ -1,0 +1,7 @@
+# remove last commit, do n0t track history
+git reset HEAD~1
+
+# git revert ca7f3c2, remove last commit but track it
+
+# add changes to the last commit
+git commit --amend --no-edit
