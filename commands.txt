@@ -8,3 +8,15 @@ git commit --amend --no-edit
 
 # remove all untracked files including sub directories
 git clean -fd
+
+# create and switch branch
+git checkout -b feature-a
+
+# remove branch
+git branch -D feature-a
+
+# list branch
+git branch --list
+
+# merge branch into current
+git merge feature-a
